@@ -81,7 +81,7 @@ const char* password = "Your_WiFi_Password";
 - **This is mandatory!** The project won't fit otherwise
 
 ### 4. Upload Code
-- Select Board: `Tools -> Board -> Deneyap Kart 1A`
+- Select Board: `Tools -> Board -> Deneyap Kart 1A or 1A V2`
 - Select Port: `Tools -> Port -> COMx`
 - Click Upload button
 

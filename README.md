@@ -118,7 +118,7 @@ python test_screen.py
 
 | Component | Specification | Notes |
 |-----------|--------------|-------|
-| **Microcontroller** | Deneyap Kart 1A (ESP32-CAM) | Must have camera connector |
+| **Microcontroller** | Deneyap Kart 1A or 1A V2 (ESP32-CAM) | Must have camera connector |
 | **Display** | OLED SSD1306 128x64 | I2C interface (0x3C or 0x3D) |
 | **Camera** | OV2640 or compatible | Included with Deneyap Kart |
 | **Power** | 5V/1A USB or external | Via USB or VIN pin |
@@ -157,8 +157,8 @@ python test_screen.py
 
 #### 1. Clone or Download
 ```bash
-git clone https://github.com/yourusername/KameraYuzTanima.git
-cd KameraYuzTanima
+git clone https://github.com/mehmetdogandev/Camera-Face-Recognition-Asynchronous-Display.git
+cd Camera-Face-Recognition-Asynchronous-Display
 ```
 
 #### 2. Arduino IDE Setup
@@ -188,7 +188,7 @@ Follow the wiring diagram in [Hardware Setup Guide](docs/BAGLANTI_SEMASI.md)
    const char* ssid = "YourWiFiSSID";
    const char* password = "YourPassword";
    ```
-3. Select board: `Tools → Board → Deneyap Kart 1A`
+3. Select board: `Tools → Board → Deneyap Kart 1A or 1A V2`
 4. **Important**: Set `Tools → Partition Scheme → Huge APP`
 5. Select port: `Tools → Port → COMx`
 6. Click **Upload** (➡️)

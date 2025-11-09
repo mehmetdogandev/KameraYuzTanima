@@ -21,7 +21,7 @@ Complete installation guide for the ESP32-CAM OLED Screen Control System.
 Before you begin, make sure you have:
 
 ### Hardware
-- ✅ Deneyap Kart 1A (ESP32-CAM) with camera connector
+- ✅ Deneyap Kart 1A V2 (ESP32-CAM) with camera connector
 - ✅ OLED SSD1306 display (128x64, I2C)
 - ✅ USB cable (data capable, not charge-only)
 - ✅ Jumper wires (4 pieces minimum)
@@ -71,7 +71,7 @@ If you don't have Arduino IDE installed:
 
 1. Go to `Tools → Board`
 2. Navigate to **ESP32 Arduino**
-3. Select **Deneyap Kart 1A** (or Deneyap Kart 1A v2 if you have v2)
+3. Select **Deneyap Kart 1A V2** (or Deneyap Kart 1A v2 if you have v2)
 
 ### Step 4: Configure Board Settings
 

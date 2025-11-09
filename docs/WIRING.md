@@ -66,17 +66,17 @@ Connect your OLED display to Deneyap Kart (ESP32-CAM) as follows:
         │   │   │     │
         │   │   │     │
         ↓   ↓   ↓     ↓
-    ┌───┴───┴───┴─────┴───────┐
-    │  3.3V GND D10 D11       │  ← ESP32 Pins
-    │                         │
-    │    Deneyap Kart 1A      │
-    │      (ESP32-CAM)        │
-    │                         │
-    │    ┌──────────┐         │
-    │    │  Camera  │         │
-    │    │  Module  │         │
-    │    └──────────┘         │
-    └─────────────────────────┘
+    ┌───┴───┴───┴─────┴─────────────┐
+    │  3.3V GND D10 D11             │  ← ESP32 Pins
+    │                               │
+    │    Deneyap Kart 1A or 1A V2   │
+    │      (ESP32-CAM)              │
+    │                               │
+    │       ┌──────────┐            │
+    │       │  Camera  │            │
+    │       │  Module  │            │
+    │       └──────────┘            │
+    └───────────────────────────────┘
 ```
 
 ### Breadboard Layout
